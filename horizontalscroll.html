@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Example Making DIV Contents Scroll Horizontally, width multiple Div`s inside</title>
+
+<style type="text/css">
+#conscroll {
+  position: relative;
+  height: 15em;
+  width: 99%;
+  margin: 2px auto;
+  background: white;
+  text-align: left;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align:middle;
+}
+#conscroll div {
+  display: inline-block;
+  width: 14em;
+  height: 12em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 8px;
+  padding: 0px;
+  white-space: normal;
+  text-align: center;
+
+  text-decoration: white;
+
+
+  background-color: #2a86bf;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#conscroll div img {
+  border-radius: 8px; 
+  width: 14em; 
+  height: 8em; 
+}
+
+  #conscroll div a {
+    color: white;
+    text-decoration: none;
+  }
+  #conscroll div a:hover {
+    color: #D91E1E;
+  }
+
+
+/*
+.cards {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+ .cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+
+
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+    @media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+    @media (min-width: 1200px) {
+  .cards { grid-template-columns: repeat(10, 1fr); }
+}*/
+
+
+</style>
+</head>
+<body>
+
+<div class="cards" id="conscroll">
+
+ <div class="cards">
+  <a href="news_NAFRCNAFRC set to debut its Water Plant.html"> <img class="img-fluid image" src="assets/img/waterplant/_MG_1767.JPG">
+     NAFRC set to debut its water plant. <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_nafrccmdtvisit.html"> <img class="img-fluid image" src="assets/img/newspix/old/comdtvist4.jpg">
+     NAFRC Commandant visit to the state House. <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_NAFRC_COMMANDANT_ALSO_VISITS_EKEDC.html"> <img class="img-fluid image" src="assets/img/VISIT TO EKO ELECTRICITY/IMG_6264.JPG">
+     NAFRC Commandant visits EKEDC. <br>
+   </a>
+    
+  </div>
+  <div class="cards">
+  <a href="news_NAFRC COMMANDANT PAYS COURTESY VISIT TO RT BRISCOE.html"> <img class="img-fluid image" src="assets/img/RTBriscoe/IMG_6460.JPG">
+     NAFRC Commandant pays courtesy visit to RT Briscoe.  <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_lagos_support.html"> <img class="img-fluid image" src="assets/img/newspix/lagnews1.jpg">
+     NAFRC trains 103 graduands from Ikorodu constituents. <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_NAFRC sensitizes Community on COVID-19 Vaccination.html"> <img class="img-fluid image" src="assets/img/covid_19/IMG_3850 - Copy.JPG">
+     NAFRC sensitizes community on COVID-19 vaccination. <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_AVM IDRIS Pledges to continue the Legacy of his Predecessors.html"> <img class="img-fluid image" src="assets/img/comdt-maiden-address/IMG-3.jpeg">
+     AVM Idris pledges to continue the legacy of his predecessors. <br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_comdt_tour.html"> <img class="img-fluid image" src="assets/img/cmdt-tour-0321/IMG-5.jpeg">
+     NAFRC Commandant (AVM Idris) first tour.<br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_handingover_2021.html"> <img class="img-fluid image" src="assets/img/wingpics/comdt_03.jpg">
+     AVM Idris takes over the helm as NAFRC commandant.<br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_deputy_commandant_inspects_infrastructure_projects_in_the_centre.html"> <img class="img-fluid image" src="assets/img/deputycomdpjt/IMG_8765.JPG">
+     Deputy Commandant inspects infrastructure projects in the centre <br>
+   </a>
+    
+  </div>
+
+
+  <div class="cards">
+  <a href="news_nafrctrains162bat.html"> <img class="img-fluid image" src="assets/img/newspix/nafrctrain1.jpg">NAFRC trains 162 retiring military personnel...<br>
+   </a>
+    
+  </div>
+
+  <div class="cards">
+  <a href="news_nafrcparamilitaryjuly2020.html"> <img class="img-fluid image" src="assets/img/newspix/maglaunch.jpg">NAFRC to involve para-military in retirement training... <br>
+   </a>
+    
+  </div>
+
+  <!--div class="cards">
+  <a href="news_nafrccmdtvisit.html"> <img class="img-fluid image" src="assets/img/newspix/old/comdtvist4.jpg">
+     NAFRC Commandant visit to the state House <br>
+   </a>
+    
+  </div>
+
+
+  <div class="cards">
+  <a href="news_nafrccmdtvisit.html"> <img class="img-fluid image" src="assets/img/newspix/old/comdtvist4.jpg">
+     NAFRC Commandant visit to the state House <br>
+   </a>
+    
+  </div-->
+
+ <!--div class="cards">Div 14<br/>https://coursesweb.net/html/</div-->
+
+
+</div>
+
+</body>
+</html>

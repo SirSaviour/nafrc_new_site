@@ -1,0 +1,48 @@
+ <style type="text/css"> /* Style for Readmore Button */
+    .paragraph {
+      text-align: justify;
+    }
+
+    #more {display: none;}
+
+     #myBtn {
+      position: absolute;
+    }
+
+
+  </style> <!-- /* End Style for Readmore Button */ -->
+
+
+  **********************************************
+
+   <span id="dots">...</span> <!-- Add this before Span for Readmore --> 
+
+          <span id="more"> <!-- Begin Span Tag for Readmore >>> Place it at the begining of the Paragraph cut /* Script for Readmore Button */ --> 
+
+************************************************
+
+<br><center><button type="button" class="btn btn-outline-primary" onclick="myFunction()" id="myBtn">Continue Reading</button></center> <!-- Add this Button Tag for Readmore, where you need button to appear -->
+
+******************************************************
+
+<script type="text/javascript"> /* Begin Script for Readmore Button */
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    myBtn.style.visibility = "hidden";
+    moreText.style.display = "inline";
+  }
+}
+  </script> <!-- /* End Script for Readmore Button */ -->
+
+  ************************************************************
+  
